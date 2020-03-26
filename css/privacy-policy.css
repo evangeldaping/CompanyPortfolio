@@ -1,0 +1,29 @@
+/* html */
+
+body, html {
+  height: 100vh;
+  margin: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  background-color: #c8cef8;
+}
+
+/* end of html */
+
+/*--------------------------------------*/
+
+/* end of content */
+
+h1, h2 {
+  text-align: center;
+}
+
+.contentWrapper {
+  padding-top: 100px;
+  text-align: inherit;
+  margin: 10px 400px 0px 400px;
+  padding-bottom: 90px;
+}
+
+/* end of content */
+

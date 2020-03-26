@@ -1,0 +1,72 @@
+/* body,html */
+
+body, html {
+  height: 100%;
+  font-family: 'Ubuntu', sans-serif;
+  position: center;
+  margin: 0;
+}
+
+
+/* end of body,html */
+
+/*--------------------------------------*/
+
+/* sitemap */
+
+.title {
+  height: 200px;
+  width: 100%;
+  background: -webkit-linear-gradient(left, white, #00c6ff);
+  background: -o-linear-gradient(left, white, #00c6ff);
+  background: -moz-linear-gradient(left, white, #00c6ff);
+  background: linear-gradient(left, white, #00c6ff);
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 100px;
+  color: blue;
+  margin-top: 0px;
+}
+
+.searchwrapper {
+  height: 80px;
+  width: 100%;
+  color: #777;
+  background: #009bff;
+  background: -webkit-linear-gradient(left, #0072ff, #00c6ff);
+  background: -o-linear-gradient(left, #0072ff, #00c6ff);
+  background: -moz-linear-gradient(left, #0072ff, #00c6ff);
+  background: linear-gradient(left, #0072ff, #00c6ff);
+}
+
+.searchwrapper .button {
+  margin: 0 auto;
+}
+
+.sitemap ul {
+  margin-left: 100px;
+  list-style-type: square;
+}
+
+.sitemap ul {
+  margin-left: 100px;
+  list-style-type: square;
+}
+
+.sitemap ul li a {
+  margin-top: 25px;
+  line-height: none;
+  font-size: 18px;
+  color: blue;
+  text-decoration: none;
+  transition: 1s;
+}
+
+.sitemap ul li a.active, .sitemap ul li a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+/* end of sitemap */

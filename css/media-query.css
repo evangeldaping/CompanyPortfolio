@@ -1,0 +1,1040 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops -----------------------------------------------------
+*/
+
+@media (min-width: 1281px) {
+
+  /* index */
+  
+  nav ul li a {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .heading{
+    font-size: 500%;
+  }
+
+  .heading2{
+    font-size: 150%;
+    margin-top: 50px;
+  }
+
+  /* end of index */
+
+  /*--------------------------------------*/
+
+  /* about-us */
+  .aboutusimage {
+    background-image:url(../images/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+  }
+
+  .courseimage {
+    background-image:url(../images/aboutbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 500px;
+    width: 100%;
+
+  }
+
+  .courseimage p {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    width: 700px;
+    height: 200px;
+    letter-spacing: 8px;
+    text-align: left;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 8px;
+    margin: 100px 0px 0px 250px;
+  }
+
+  .courseimage u {
+    font-size: 50px;
+  }
+
+  .courseimage i {
+    font-size: 30px;
+  }
+
+
+  /* end of about-us */
+
+  /*--------------------------------------*/
+
+  /* contact-us */
+  .form {
+    position: center;
+    padding-top: 150px;
+    padding-left: 200px;
+  } 
+
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #f3c219;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #d4aa16;
+  }
+
+  .ccfield-prepend{
+    margin-bottom: 10px;
+    width: 500px;
+  }
+
+  .ccform-icon{
+    color: #f8ae45;
+    background: #FFFFFF; 
+    float: left;
+    padding: 8px;
+    padding-bottom: 1px;
+    width: 8%;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 2px 0px 0px 1px;
+  }
+
+  .ccformfield {
+    color: #f8ae45;
+    background: #FFFFFF; 
+    border: none;
+    padding: 15.5px;
+    width: 500px;
+    display: block;
+    font-family: 'Lato',Arial,sans-serif;
+    font-size: 14px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 1px 0px 0px 2px;
+  }  
+
+    /* end of contact-us */
+
+  /*--------------------------------------*/
+
+  /* sitemap */ 
+  .searchwrapper .search {
+    margin-left: 800px;
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .sitemap {
+    margin-top: 100px;
+    text-align: left;
+    height: 100px;
+    box-sizing: border-box;
+    z-index: 5;
+    opacity: 1;
+    margin-left: 600px;
+  }
+
+  /* end of sitemap */
+
+  /*--------------------------------------*/
+
+  /* privacy-policy */ 
+
+  .contentWrapper {
+    padding-top: 100px;
+    text-align: left;
+    margin: 0px 175px 0px 175px;
+    padding-bottom: 90px;
+  }
+
+  /* end of privacy-policy */
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px -----------------------------------------------------
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  /* index */
+  
+  nav ul li a {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .heading{
+    font-size: 400%;
+  }
+
+  .heading2{
+    font-size: 150%;
+    margin-top: 50px;
+  }
+
+  /* end of index */
+
+  /*--------------------------------------*/
+
+  /* about-us */
+
+  .aboutusimage {
+    background-image:url(../images/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+
+  .courseimage {
+    background-image:url(../images/aboutbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0px;
+  }
+
+  .courseimage p {
+    position: absolute;
+    color: white;
+    font-size: 13px;
+    width: 650px;
+    height: 200px;
+    letter-spacing: 8px;
+    text-align: left;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 8px;
+    margin: 50px 0px 0px 20px;
+  }
+
+  .courseimage u {
+    font-size: 25px;
+  }
+
+  .courseimage i {
+    font-size: 16px;
+  }
+
+
+  /* end of about-us */
+
+  /*--------------------------------------*/
+
+  /* contact-us */
+  .form {
+    position: center;
+    padding-top: 150px;
+    padding-left: 100px;
+  } 
+
+  nav ul li a {
+    font-size: 12px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
+  input[type=submit] {
+    background-color: #f3c219;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #d4aa16;
+  }
+
+  .ccfield-prepend{
+    margin-bottom: 10px;
+    width: 400px;
+  }
+
+  .ccform-icon{
+    color: #f8ae45;
+    background: #FFFFFF; 
+    float: left;
+    padding: 8px;
+    padding-bottom: 1px;
+    width: 8%;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 2px 0px 0px 1px;
+  }
+
+  .ccformfield {
+    color: #f8ae45;
+    background: #FFFFFF; 
+    border: none;
+    padding: 15.5px;
+    width: 400px;
+    display: block;
+    font-family: 'Lato',Arial,sans-serif;
+    font-size: 14px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 1px 0px 0px 2px;
+  }  
+
+  /* end of contact-us */
+
+  /*--------------------------------------*/
+
+  /* sitemap */ 
+  .searchwrapper .search {
+    margin-left: 450px;
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .sitemap {
+    margin-top: 100px;
+    text-align: left;
+    height: 100px;
+    box-sizing: border-box;
+    z-index: 5;
+    opacity: 1;
+    margin-left: 300px;
+  }
+
+  /* end of sitemap */
+
+  /*--------------------------------------*/
+
+  /* privacy-policy */ 
+
+  .contentWrapper {
+    padding-top: 100px;
+    text-align: left;
+    margin: 0px 140px 0px 140px;
+    padding-bottom: 90px;
+  }
+
+  /* end of privacy-policy */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px -----------------------------------------------------
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* index */
+  
+  nav ul li a {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .heading{
+    font-size: 300%;
+  }
+
+  .heading2{
+    font-size: 125%;
+    margin-top: 50px;
+  }
+
+  /* end of index */
+
+  /*--------------------------------------*/
+
+  /* about-us */
+
+  .aboutusimage {
+    background-image:url(../images/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .courseimage {
+    background-image:url(../images/aboutbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 250px;
+    width: 100%;
+
+  }
+
+  .courseimage p {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    width: 400px;
+    height: 200px;
+    letter-spacing: 8px;
+    text-align: left;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 8px;
+    margin: 10px 0px 0px 30px;
+  }
+
+  .courseimage u {
+    font-size: 20px;
+  }
+
+  .courseimage i {
+    font-size: 15px;
+  }
+
+  /* end of about-us */
+
+  /*--------------------------------------*/
+
+  /* contact-us */
+  .form {
+    position: center;
+    padding-top: 150px;
+    padding-left: 100px;
+  } 
+
+  nav ul li a{
+    font-size: 12px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+  input[type=submit] {
+    background-color: #f3c219;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #d4aa16;
+  }
+
+  .ccfield-prepend{
+    margin-bottom: 10px;
+    width: 300px;
+  }
+
+  .ccform-icon{
+    color: #f8ae45;
+    background: #FFFFFF; 
+    float: left;
+    padding: 8px;
+    padding-bottom: 1px;
+    width: 8%;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 2px 0px 0px 1px;
+  }
+
+  .ccformfield {
+    color: #f8ae45;
+    background: #FFFFFF; 
+    border: none;
+    padding: 15.5px;
+    width: 300px;
+    display: block;
+    font-family: 'Lato',Arial,sans-serif;
+    font-size: 14px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 1px 0px 0px 2px;
+  }  
+
+    /* end of contact-us */
+
+  /*--------------------------------------*/
+
+  /* sitemap */ 
+  .searchwrapper .search {
+    margin-left: 280px;
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .sitemap {
+    margin-top: 100px;
+    text-align: left;
+    height: 100px;
+    box-sizing: border-box;
+    z-index: 5;
+    opacity: 1;
+    margin-left: 150px;
+  }
+
+  /* end of sitemap */
+
+  /*--------------------------------------*/
+
+  /* privacy-policy */ 
+
+  .contentWrapper {
+    padding-top: 100px;
+    text-align: left;
+    margin: 0px 105px 0px 105px;
+    padding-bottom: 90px;
+  }
+
+  /* end of privacy-policy */
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px -----------------------------------------------------
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* index */
+  
+  nav ul li a {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .heading{
+    font-size: 200%;
+  }
+
+  .heading2{
+    font-size: 100%;
+    margin-top: 50px;
+  }
+
+  /* end of index */
+
+  /*--------------------------------------*/
+
+  /* about-us */
+
+  .aboutusimage {
+    background-image:url(../images/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .courseimage {
+    background-image:url(../images/aboutbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 500px;
+    width: 100%;
+
+  }
+
+  .courseimage p {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    width: 700px;
+    height: 200px;
+    letter-spacing: 8px;
+    text-align: left;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 8px;
+    margin: 50px 0px 0px 30px;
+  }
+
+  .courseimage u {
+    font-size: 20px;
+  }
+
+  .courseimage i {
+    font-size: 15px;
+  }
+
+  /* end of about-us */
+
+  /*--------------------------------------*/
+
+  /* contact-us */
+  .form {
+    position: center;
+    padding-top: 150px;
+    padding-left: 100px;
+  } 
+
+  nav ul li a{
+    font-size: 12px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+  input[type=submit] {
+    background-color: #f3c219;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #d4aa16;
+  }
+
+  .ccfield-prepend{
+    margin-bottom: 10px;
+    width: 200px;
+  }
+
+  .ccform-icon{
+    color: #f8ae45;
+    background: #FFFFFF; 
+    float: left;
+    padding: 8px;
+    padding-bottom: 1px;
+    width: 8%;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 2px 0px 0px 1px;
+  }
+
+  .ccformfield {
+    color: #f8ae45;
+    background: #FFFFFF; 
+    border: none;
+    padding: 15.5px;
+    width: 200px;
+    display: block;
+    font-family: 'Lato',Arial,sans-serif;
+    font-size: 14px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 1px 0px 0px 2px;
+  }  
+
+    /* end of contact-us */
+
+  /*--------------------------------------*/
+
+  /* sitemap */ 
+  .searchwrapper .search {
+    margin-left: 180px;
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .sitemap {
+    margin-top: 100px;
+    text-align: left;
+    height: 100px;
+    box-sizing: border-box;
+    z-index: 5;
+    opacity: 1;
+    margin-left: 100px;
+  }
+
+  /* end of sitemap */
+
+  /*--------------------------------------*/
+
+  /* privacy-policy */ 
+
+  .contentWrapper {
+    padding-top: 100px;
+    text-align: left;
+    margin: 0px 70px 0px 70px;
+    padding-bottom: 90px;
+  }
+
+  /* end of privacy-policy */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px -----------------------------------------------------
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* index */
+  
+  nav ul li a {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .heading{
+    font-size: 150%;
+  }
+
+  .heading2{
+    font-size: 100%;
+    margin-top: 50px;
+  }
+
+  /* end of index */
+
+  /*--------------------------------------*/
+
+  /* about-us */
+
+.aboutusimage {
+    background-image:url(../images/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+  }
+
+  .courseimage {
+    background-image:url(../images/aboutbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 250px;
+    width: 100%;
+
+  }
+
+  .courseimage p {
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    width: 400px;
+    height: 200px;
+    letter-spacing: 8px;
+    text-align: left;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 8px;
+    margin: 10px 0px 0px 10px;
+  }
+
+  .courseimage u {
+    font-size: 15px;
+  }
+
+  .courseimage i {
+    font-size: 13px;
+  }
+
+
+  /* end of about-us */
+
+  /*--------------------------------------*/
+
+  /* contact-us */
+  .form {
+    position: center;
+    padding-top: 150px;
+    padding-left: 100px;
+  } 
+
+  nav ul li a{
+    font-size: 12px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+  input[type=submit] {
+    background-color: #f3c219;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #d4aa16;
+  }
+
+  .ccfield-prepend{
+    margin-bottom: 10px;
+    width: 100px;
+  }
+
+  .ccform-icon{
+    color: #f8ae45;
+    background: #FFFFFF; 
+    float: left;
+    padding: 8px;
+    padding-bottom: 1px;
+    width: 8%;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 2px 0px 0px 1px;
+  }
+
+  .ccformfield {
+    color: #f8ae45;
+    background: #FFFFFF; 
+    border: none;
+    padding: 15.5px;
+    width: 100px;
+    display: block;
+    font-family: 'Lato',Arial,sans-serif;
+    font-size: 14px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 1px 0px 0px 2px;
+  }  
+
+    /* end of contact-us */
+
+  /*--------------------------------------*/
+
+  /* sitemap */ 
+  .searchwrapper .search {
+    margin-left: 100px;
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .sitemap {
+    margin-top: 100px;
+    text-align: left;
+    height: 100px;
+    box-sizing: border-box;
+    z-index: 5;
+    opacity: 1;
+    margin-left: 10px;
+  }
+
+  /* end of sitemap */
+
+  /*--------------------------------------*/
+
+  /* privacy-policy */ 
+
+  .contentWrapper {
+    padding-top: 100px;
+    text-align: left;
+    margin: 0px 35px 0px 35px;
+    padding-bottom: 90px;
+  }
+
+  /* end of privacy-policy */
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px -----------------------------------------------------
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* index */
+  
+  nav ul li a {
+    font-size: 12px;
+    text-align: center;
+  }
+
+  .heading{
+    font-size: 85%;
+  }
+
+  .heading2{
+    font-size: 70%;
+    margin-top: 50px;
+  }
+
+  /* end of index */
+
+  /*--------------------------------------*/
+
+  /* about-us */
+
+.aboutusimage {
+    background-image:url(../images/aboutUs.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+  }
+
+  .courseimage {
+    background-image:url(../images/aboutbackgroundimage.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    height: 250px;
+    width: 100%;
+
+  }
+
+  .courseimage p {
+    position: absolute;
+    color: white;
+    font-size: 7px;
+    width: 200px;
+    height: 200px;
+    letter-spacing: 8px;
+    text-align: left;
+    text-shadow: 0 0 10px #000;
+    letter-spacing: 8px;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .courseimage u {
+    font-size: 5px;
+  }
+
+  .courseimage i {
+    font-size: 5px;
+  }
+
+  /* end of about-us */
+
+  /*--------------------------------------*/
+
+  /* contact-us */
+  .form {
+    position: center;
+    padding-top: 150px;
+    padding-left: 40px;
+  } 
+
+  nav ul li a{
+    font-size: 12px;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+  input[type=submit] {
+    background-color: #f3c219;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #d4aa16;
+  }
+
+  .ccfield-prepend{
+    margin-bottom: 10px;
+    width: 50px;
+  }
+
+  .ccform-icon{
+    color: #f8ae45;
+    background: #FFFFFF; 
+    float: left;
+    padding: 8px;
+    padding-bottom: 1px;
+    width: 8%;
+    border-radius: 10px 0px 0px 0px;
+    box-shadow: 2px 0px 0px 1px;
+  }
+
+  .ccformfield {
+    color: #f8ae45;
+    background: #FFF; 
+    border: none;
+    padding: 15.5px;
+    width: 50px;
+    display: block;
+    float: left;
+    font-family: 'Lato',Arial,sans-serif;
+    font-size: 14px;
+    border-radius: 0px 10px 0px 10px;
+    box-shadow: 1px 0px 0px 2px;
+  }  
+
+  /* end of contact-us */
+
+  /*--------------------------------------*/
+
+  /* sitemap */ 
+  .searchwrapper .search {
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 200px;
+  }
+
+  .sitemap {
+    margin-top: 100px;
+    text-align: left;
+    height: 100px;
+    box-sizing: border-box;
+    opacity: 1;
+    margin-left: 0px;
+  }
+
+  /* end of sitemap */
+
+  /*--------------------------------------*/
+
+  /* privacy-policy */ 
+
+  .contentWrapper {
+    padding-top: 100px;
+    text-align: left;
+    margin: 0px 10px 0px 10px;
+    padding-bottom: 90px;
+  }
+
+  /* end of privacy-policy */
+  
+}

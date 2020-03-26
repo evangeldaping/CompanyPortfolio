@@ -1,0 +1,104 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+  <head>
+   <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="This is the Index Page where home and about-us is located. Home is usually the first page to view everytime it is visited and About Us is the information about the company.">
+
+    <title>ABC Learning Center</title>
+
+    <!--external css-->
+    <style>
+      @import url("css/index.css");
+      @import url("css/media-query.css");
+      @import url("css/toggle.css");
+      @import url("css/navigation.css");
+      @import url("css/footer.css");
+    </style>
+    <!--end of external css-->
+
+  </head>
+  
+  <body>
+    <!--header-->
+    <header id="header">
+      <!--navigation-->
+      <nav class="nav">
+        <div class="logo">
+          <img src="images/ABClogo.png" alt="ABC Learning Center Logo">
+        </div>  
+   
+        <ul class="nav topnav bold nav-ul">
+          <li><a href="index.html">Home</a></li>
+
+          <li><a href="#tab-about">About Us</a></li>
+
+          <li class="dropdown">
+            <a class="sub-arrow">Services</a>
+              <ul class="dropdown-menu">
+                <li><a onclick="alert('No page to be displayed yet.')" href="#">Web Design</a></li>    
+                <li><a onclick="alert('No page to be displayed yet.')" href="#">Web Dev</a></li>
+                <li><a onclick="alert('No page to be displayed yet.')" href="#">Graphic Design</a></li>  
+              </ul>
+          </li>
+               
+          <li><a href="contact-us.html">Contact Us</a></li>
+
+          <li class="dropdown">
+            <a class="sub-arrow">Others</a>
+              <ul class="dropdown-menu">
+                <li><a href="sitemap.html">Sitemap</a></li>    
+                <li><a href="privacy-policy.html">Privacy Policy</a></li>
+              </ul>
+          </li>
+        </ul>
+
+        <!--toggle-->
+        <!--shows up when screen width is adjusted-->
+        <div class="burger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>   
+        </div>
+        <!--end of toggle-->
+
+      </nav>
+      <!--end of navigation-->
+
+      <div class="companyname">
+        <div class="heading">ABC Learning Center</div>
+        <div class="heading2">IT Courses Provider</div>
+      </div>
+
+    </header>
+    <!--end of header-->
+
+    <!--about section-->
+    <div class="aboutusimage" id="tab-about"></div>
+
+    <div class="courseimage">
+      <p>
+        <u><em>'ABC Learning Center'</em></u>
+        <br><br> is an IT Training institute that conducts courses like 
+        <br><br> <i>'Programming in Java', 'Programming in .Net', 'Microsoft Office', 'HTML' etc.</i>
+        <br><br> See <a onclick="alert('No page to be displayed yet.')" href="#">Services</a> for course details.
+      </p>
+    </div>          
+    <!--end of about section--> 
+
+    <!--footer-->
+    <footer>
+      <div class="footer">
+        <p>ABC Learning Center &copy; 2020 All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!--end of footer-->
+
+    <!--external javascript-->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/nav.js"></script>
+    <script src="js/dropdown.js"></script>
+    <script src="js/toggle.js"></script>
+    <!--end of external javascript--> 
+
+  </body>
+</html>

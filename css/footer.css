@@ -1,0 +1,19 @@
+/* footer */
+
+.footer {
+  padding: 20px;
+	position: fixed;
+	left: 0px;
+	bottom: 0px;
+	height: 30px;
+	width: 100%;
+	background: skyblue;
+  line-height: none;
+  font-size: 18px;
+  color: white;
+  transition: 1s;
+  text-shadow: 0 0 10px #000;
+  text-align: center;
+}
+
+/* end of footer */

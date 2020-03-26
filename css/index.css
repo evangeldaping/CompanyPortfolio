@@ -1,0 +1,59 @@
+/* body,html */
+
+body, html {
+  margin: 0px;
+  height: 1080px;   
+  width: 100%; 
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* end of body, html */
+
+/*--------------------------------------*/
+
+/* home section */
+
+#header {
+  width: 100%;
+  height: 100vh;
+  background: -moz-linear-gradient(-45deg, #e55d80 0%, #5fc3e4 100%);
+  background: -webkit-linear-gradient(-45deg, #e55d80 0%, #5fc3e4 100%);
+  background: linear-gradient(135deg, #e55d80 0%, #5fc3e4 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#e55d87', endColorstrt='#5fc3e4', GradientType=1);
+}
+
+.companyname {
+  background-image:url(../images/homebackgroundimage.png);
+  min-height: 100%;
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.heading {
+  position: absolute;
+  color: #fff;
+  font-size: 550%;
+  top: 38%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 50px blue;
+  text-align: center;
+}
+
+.heading2 {
+  position: absolute;
+  color: #fff;
+  font-size: 150%;
+  top: 50%;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  text-shadow: 0 0 50px blue;
+  text-align: center;
+}
+
+/* end of home section */

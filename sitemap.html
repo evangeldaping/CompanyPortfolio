@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html lang="en"> 
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="description" content="This is the Sitemap Page where it contains all the links af the website where it uses as a table of contents for the visitor to easily search or find the pages they want to visit instantly.">
+
+    <title>ABC Learning Center</title>
+
+    <!--external css-->
+  	<style >     
+  		@import url("css/sitemap.css");
+      @import url("css/media-query.css");
+      @import url("css/toggle.css");
+      @import url("css/footer.css");     
+  	</style>
+    <!--end of external css-->
+    
+  </head>
+  
+  <body>
+
+    <div class="title">
+      <h1>Sitemap</h1>
+    </div>
+
+    <div class="searchwrapper">
+      <form method="post" action="#">
+        <input type="text" class="search" name="searchinformation" placeholder="Search...">
+        <input id="btnid" class="button" type="submit" name="searchbutton" value="Search">
+      </form>
+    </div>
+
+   <div class="sitemap">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+
+        <li><a href="index.html">About Us</a></li>
+
+        <li>
+          <a>Services</a>
+          <ol>
+            <li><a onclick="alert('No page to be displayed yet.')" class="sub" href="#">Web Design</a></li>    
+            <li><a onclick="alert('No page to be displayed yet.')" class="sub" href="#">Web Development</a></li>
+            <li><a onclick="alert('No page to be displayed yet.')" class="sub" href="#">Graphic Design</a></li>  
+          </ol>
+        </li>
+
+        <li><a href="contact-us.html">Contact Us</a></li>
+
+        <li>
+          <a>Others</a>
+            <ol>
+              <li><a href="sitemap.html">Sitemap</a></li>    
+              <li><a href="privacy-policy.html">Privacy Policy</a></li>
+            </ol>
+        </li>
+     </ul>
+    </div>
+   
+    <!--footer-->
+    <footer>
+      <div class="footer">
+        <p>ABC Learning Center &copy; 2020 All Rights Reserved.</p>
+      </div>
+    </footer>
+    <!--end of footer-->
+
+    <!--interal javascript-->
+    <script>
+      var btn = document.getElementById("btnid");
+
+      btn.onclick = noConnection;
+
+      function noConnection(){
+        alert("The connection has not yet been established.");
+      }
+    </script>
+    <!--end of interal javascript-->
+
+  </body>
+</html>

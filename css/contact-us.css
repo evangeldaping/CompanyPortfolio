@@ -1,0 +1,127 @@
+/* body,html */
+
+body, html {
+  margin: 0px;
+  height: 1000px;   
+  width: 100%; 
+  font-family: 'Ubuntu', sans-serif;
+}
+
+/* end of body,html */
+
+/*--------------------------------------*/
+
+/* form */
+.ccform {
+  background-image:url(../images/contactbackgroundimage.jpg);
+  min-height: 100%;
+  width: 100%;
+  position: absolute;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.ccform-icon{
+  color: #f8ae45;
+  background: #FFFFFF; 
+  float: left;
+  padding: 8px;
+  padding-bottom: 1px;
+  width: 8%;
+  border-radius: 10px 0px 0px 0px;
+  box-shadow: 2px 0px 0px 1px;
+}
+
+.ccformfield {
+  color: #f8ae45;
+  background: #FFFFFF; 
+  border: none;
+  padding: 15.5px;
+  width: 91.9%;
+  display: block;
+  font-family: 'Lato',Arial,sans-serif;
+  font-size: 14px;
+  border-radius: 0px 10px 0px 10px;
+  box-shadow: 1px 0px 0px 2px;
+}
+
+.ccbtn{
+  display: block;
+  border: none;
+  background-color: #f3c219;
+  color: white;
+  padding: 12px 25px;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: 1px 1px 4px 4px;
+}
+
+.ccbtn:hover{
+  background-color: #d4aa16;
+}
+
+/* end of form */
+
+/*------------------------------------------------------------------
+[ Alert validate ]*/
+
+.validate-input {
+  position: relative;
+}
+
+.alert-validate::before {
+  content: attr(data-validate);
+  position: absolute;
+  max-width: 70%;
+  background-color: white;
+  border: 1px solid #c80000;
+  border-radius: 13px;
+  padding: 4px 25px 4px 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 8px;
+  pointer-events: none;
+
+  font-family: Montserrat-Medium;
+  color: #c80000;
+  font-size: 13px;
+  line-height: 1.4;
+  text-align: left;
+
+  visibility: hidden;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.4s;
+  -o-transition: opacity 0.4s;
+  -moz-transition: opacity 0.4s;
+  transition: opacity 0.4s;
+}
+
+.alert-validate::after {
+  content: "\f06a";
+  font-family: FontAwesome;
+  display: block;
+  position: absolute;
+  color: #c80000;
+  font-size: 15px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  right: 13px;
+}
+
+.alert-validate:hover:before {
+  visibility: visible;
+  opacity: 1;
+}
+}
